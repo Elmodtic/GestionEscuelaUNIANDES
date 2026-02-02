@@ -1,0 +1,43 @@
+﻿@model IEnumerable<GestionEscuelaTarea.Models.Curso>
+@{
+    ViewData["Title"] = "Gestión de Cursos";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1><i class="bi bi-book"></i> Listado de Materias / Cursos</h1>
+    <a asp-action="Create" class="btn btn-primary shadow-sm">
+        <i class="bi bi-plus-lg"></i> Crear Nuevo Curso
+    </a>
+</div>
+
+<table class="table table-striped table-hover shadow-sm bg-white border">
+    <thead class="table-dark">
+        <tr>
+            <th>Nombre del Curso</th>
+            <th>Código</th>
+            <th class="text-center">Créditos</th>
+            <th>Descripción</th>
+            <th class="text-center">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="fw-bold text-primary">@item.NombreCurso</td>
+                <td><code class="fw-bold">@item.Codigo</code></td>
+                <td class="text-center">
+                    <span class="badge rounded-pill bg-info text-dark">@item.Creditos pts</span>
+                </td>
+                <td><small class="text-muted">@item.Descripcion</small></td>
+                <td class="text-center">
+                    <div class="btn-group">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-info">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

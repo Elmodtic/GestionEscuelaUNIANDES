@@ -1,0 +1,26 @@
+﻿@model GestionEscuelaTarea.Models.Aula
+@{
+    ViewData["Title"] = "Eliminar Aula";
+}
+
+<div class="container mt-4">
+    <div class="alert alert-danger shadow-sm border-start border-5 border-danger">
+        <h3 class="fw-bold"><i class="bi bi-exclamation-triangle-fill"></i> ¿Estás seguro de eliminar esta aula?</h3>
+        <p class="mb-0 text-dark">Esta acción no se puede deshacer. Se borrarán todos los datos asociados.</p>
+    </div>
+
+    <div class="card shadow-sm mt-3">
+        <div class="card-body">
+            <h5 class="text-muted mb-3">Datos del registro:</h5>
+            <p><strong>Aula:</strong> @Model.Nombre</p>
+            <p><strong>Ubicación:</strong> @Model.Ubicacion</p>
+        </div>
+        <div class="card-footer text-end">
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <a asp-action="Index" class="btn btn-secondary me-2">Cancelar</a>
+                <button type="submit" class="btn btn-danger px-4 fw-bold">Confirmar Eliminación</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@model GestionEscuelaTarea.Models.Aula
+@{
+    ViewData["Title"] = "Nueva Aula";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow border-0">
+                <div class="card-header bg-primary text-white py-3">
+                    <h5 class="mb-0"><i class="bi bi-plus-square"></i> Registrar Nueva Aula</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="mb-3">
+                            <label asp-for="Nombre" class="form-label fw-bold">Nombre / Código del Aula</label>
+                            <input asp-for="Nombre" class="form-control" placeholder="Ej: Laboratorio 102" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Ubicacion" class="form-label fw-bold">Ubicación (Bloque/Edificio)</label>
+                            <input asp-for="Ubicacion" class="form-control" placeholder="Ej: Bloque B - Segundo Piso" />
+                            <span asp-validation-for="Ubicacion" class="text-danger"></span>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col">
+                                <label asp-for="Capacidad" class="form-label fw-bold">Capacidad Máxima</label>
+                                <input asp-for="Capacidad" type="number" class="form-control" />
+                                <span asp-validation-for="Capacidad" class="text-danger"></span>
+                            </div>
+                            <div class="col d-flex align-items-end">
+                                <div class="form-check form-switch mb-2">
+                                    <input class="form-check-input" type="checkbox" asp-for="TieneProyector">
+                                    <label class="form-check-label fw-bold" asp-for="TieneProyector">¿Tiene Proyector?</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-success btn-lg">Guardar Aula</button>
+                            <a asp-action="Index" class="btn btn-link text-decoration-none">Cancelar y Volver</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

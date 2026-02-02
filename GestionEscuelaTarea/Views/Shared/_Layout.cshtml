@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="es" class="h-100">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gestión Escuela</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="d-flex flex-column h-100 bg-light">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm mb-4">
+            <div class="container">
+                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">🏫 SISTEMA ESCOLAR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        @if (User.Identity.IsAuthenticated) // Solo si hay sesión iniciada
+                        {
+                            @if (User.IsInRole("Administrador")) // Menú exclusivo para TI
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Estudiantes" asp-action="Index">Estudiantes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Profesores" asp-action="Index">Profesores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-controller="Cursos" asp-action="Index">Cursos</a>
+                                </li>
+                            }
+
+                            // Menú compartido: Ambos roles pueden ver esto
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Aulas" asp-action="Index">Aulas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-bold text-warning" asp-controller="Matriculas" asp-action="Index">Matrículas</a>
+                            </li>
+                        }
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <partial name="_LoginPartial" />
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-shrink-0">
+        <div class="container">
+            <div class="card shadow-sm p-4 bg-white border-0">
+                @RenderBody()
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-4 bg-white border-top text-center text-muted">
+        <div class="container">
+            <span class="text-dark fw-bold">&copy; 2026 - Gestión Escuela</span> - Darwin Dario Moyano Alvarez
+            <br />
+            <small class="text-secondary">UNIANDES - <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-decoration-none">Políticas de Privacidad</a></small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

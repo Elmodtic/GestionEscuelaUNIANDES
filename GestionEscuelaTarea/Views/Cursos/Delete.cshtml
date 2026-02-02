@@ -1,0 +1,27 @@
+﻿@model GestionEscuelaTarea.Models.Curso
+@{
+    ViewData["Title"] = "Eliminar Materia";
+}
+
+<div class="container mt-4">
+    <div class="card border-danger shadow-sm">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0"><i class="bi bi-exclamation-octagon"></i> ¡Atención! Proceso de Eliminación</h4>
+        </div>
+        <div class="card-body p-4 text-center">
+            <h5 class="text-danger fw-bold mb-3">¿Está seguro de que desea eliminar permanentemente este curso?</h5>
+            <div class="bg-light p-3 rounded border mb-4">
+                <p class="mb-1"><strong>Materia:</strong> @Model.NombreCurso</p>
+                <p class="mb-0 text-muted"><strong>Código:</strong> @Model.Codigo</p>
+            </div>
+
+            <form asp-action="Delete">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger btn-lg px-5 shadow">Confirmar y Borrar</button>
+                <div class="mt-3">
+                    <a asp-action="Index" class="btn btn-link text-decoration-none">No borrar, volver al listado</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

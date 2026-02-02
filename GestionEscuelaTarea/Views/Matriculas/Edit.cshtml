@@ -1,0 +1,56 @@
+﻿@model GestionEscuelaTarea.Models.Matricula
+@{
+    ViewData["Title"] = "Editar Matrícula";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-warning text-dark py-3">
+                    <h5 class="mb-0 fw-bold"><i class="bi bi-pencil-square"></i> Editar Registro de Inscripción</h5>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="mb-3">
+                            <label asp-for="Fecha" class="form-label fw-bold">Fecha de Registro</label>
+                            <input asp-for="Fecha" type="date" class="form-control" />
+                            <span asp-validation-for="Fecha" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Periodo" class="form-label fw-bold">Periodo Académico</label>
+                            <select asp-for="Periodo" class="form-select">
+                                <option value="2026-I">2026-I (Ene - Jun)</option>
+                                <option value="2026-II">2026-II (Jul - Dic)</option>
+                            </select>
+                            <span asp-validation-for="Periodo" class="text-danger"></span>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="NotaFinal" class="form-label fw-bold">Nota Final</label>
+                                <input asp-for="NotaFinal" class="form-control" type="number" step="0.01" />
+                                <span asp-validation-for="NotaFinal" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-end">
+                                <div class="form-check form-switch mb-2">
+                                    <input class="form-check-input" type="checkbox" asp-for="EstaPagado">
+                                    <label class="form-check-label fw-bold" asp-for="EstaPagado">¿Pago Realizado?</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-4">
+                            <button type="submit" class="btn btn-dark btn-lg fw-bold">Actualizar Matrícula</button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

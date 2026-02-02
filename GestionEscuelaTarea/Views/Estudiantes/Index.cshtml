@@ -1,0 +1,44 @@
+﻿@model IEnumerable<GestionEscuelaTarea.Models.Estudiante>
+
+@{
+    ViewData["Title"] = "Listado de Estudiantes";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Listado de Estudiantes</h1>
+    <p>
+        <a asp-action="Create" class="btn btn-success shadow-sm">
+            <i class="bi bi-plus-circle"></i> Crear Nuevo Estudiante
+        </a>
+    </p>
+</div>
+
+<table class="table table-hover align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+            <th>@Html.DisplayNameFor(model => model.Apellido)</th>
+            <th>@Html.DisplayNameFor(model => model.Cedula)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th class="text-center">Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.Apellido)</td>
+                <td>@Html.DisplayFor(modelItem => item.Cedula)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td class="text-center">
+                    <div class="btn-group btn-group-sm" role="group">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">Editar</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-outline-danger">Eliminar</a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center py-5">
+    <h1 class="display-4 fw-bold text-primary">UNIANDES</h1>
+    <h2 class="mb-4">BIENVENIDOS A SOFTWARE</h2>
+    <p class="lead">Sistema de Gestión Escolar diseñado por Darwin Dario Moyano Alvarez.</p>
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <div class="mt-4">
+            <p>Por favor, inicia sesión para gestionar los datos de la institución.</p>
+            <a class="btn btn-primary btn-lg" asp-area="Identity" asp-page="/Account/Login">Iniciar Sesión</a>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-success mt-4">
+            <i class="bi bi-check-circle-fill"></i> Sesión activa. Usa el menú superior para navegar.
+        </div>
+    }
+</div>

@@ -1,0 +1,61 @@
+﻿@model GestionEscuelaTarea.Models.Estudiante
+
+@{
+    ViewData["Title"] = "Nuevo Estudiante";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0"><i class="bi bi-person-plus"></i> Registrar Nuevo Estudiante</h4>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Nombre" class="form-label fw-bold">Nombres Completos</label>
+                            <input asp-for="Nombre" class="form-control" placeholder="Ej: Juan Pérez" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Apellido" class="form-label fw-bold">Apellidos</label>
+                            <input asp-for="Apellido" class="form-control" placeholder="Ej: Armas Silva" />
+                            <span asp-validation-for="Apellido" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Cedula" class="form-label fw-bold">Número de Cédula</label>
+                            <input asp-for="Cedula" class="form-control" placeholder="10 dígitos" />
+                            <span asp-validation-for="Cedula" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="Email" class="form-label fw-bold">Correo Electrónico</label>
+                            <input asp-for="Email" class="form-control" type="email" placeholder="nombre@ejemplo.com" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="bi bi-check-circle"></i> Guardar Estudiante
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">
+                                Volver al Listado
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

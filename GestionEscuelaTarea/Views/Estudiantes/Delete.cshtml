@@ -1,0 +1,31 @@
+﻿@model GestionEscuelaTarea.Models.Estudiante
+@{
+    ViewData["Title"] = "Eliminar Registro";
+}
+
+<div class="container mt-4">
+    <div class="card border-danger shadow-sm">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0"><i class="bi bi-person-dash"></i> Eliminar Estudiante</h4>
+        </div>
+        <div class="card-body p-4">
+            <div class="alert alert-warning">
+                <h5 class="fw-bold"><i class="bi bi-exclamation-triangle"></i> ¿Está seguro de eliminar a este estudiante?</h5>
+                <p class="mb-0">Esta acción borrará permanentemente al alumno del sistema escolar.</p>
+            </div>
+
+            <div class="bg-light p-3 rounded border mb-4">
+                <p class="mb-1"><strong>Nombre Completo:</strong> @Model.Nombre @Model.Apellido</p>
+                <p class="mb-0"><strong>Cédula:</strong> @Model.Cedula</p>
+            </div>
+
+            <form asp-action="Delete" class="text-center">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-danger btn-lg px-5 shadow">Eliminar permanentemente</button>
+                <div class="mt-3">
+                    <a asp-action="Index" class="btn btn-link text-decoration-none text-muted">Cancelar y volver al listado</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

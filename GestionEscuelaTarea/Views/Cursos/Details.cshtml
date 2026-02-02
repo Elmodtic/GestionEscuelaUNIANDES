@@ -1,0 +1,34 @@
+﻿@model GestionEscuelaTarea.Models.Curso
+@{
+    ViewData["Title"] = "Detalle del Curso";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0"><i class="bi bi-info-circle"></i> Ficha Técnica del Curso</h4>
+        </div>
+        <div class="card-body py-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="text-primary fw-bold">@Model.NombreCurso</h2>
+                    <p class="text-muted fs-5">Código único: <code class="fw-bold bg-light p-1">@Model.Codigo</code></p>
+                    <hr />
+                    <h6 class="fw-bold">Descripción de la Materia:</h6>
+                    <p class="bg-light p-3 border rounded">@Model.Descripcion</p>
+                </div>
+                <div class="col-md-4 border-start text-center">
+                    <div class="p-3">
+                        <h6 class="text-muted">Créditos Académicos</h6>
+                        <h1 class="display-4 fw-bold text-info">@Model.Creditos</h1>
+                        <p class="text-muted">Puntos de carga horaria</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer bg-light d-flex justify-content-end">
+            <a asp-action="Index" class="btn btn-secondary me-2">Regresar</a>
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary px-4">Modificar Datos</a>
+        </div>
+    </div>
+</div>

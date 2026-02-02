@@ -1,0 +1,20 @@
+﻿@page
+@model AccessDeniedModel
+@{
+    ViewData["Title"] = "Acceso Denegado";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center text-center">
+        <div class="col-md-6 border p-5 shadow-sm bg-light">
+            <h1 class="text-danger" style="font-size: 5rem;"><i class="bi bi-shield-lock-fill"></i></h1>
+            <header>
+                <h2 class="text-danger">@ViewData["Title"]</h2>
+                <p class="text-muted lead">No tienes permisos suficientes para entrar a esta sección.</p>
+                <p>Si crees que esto es un error, contacta con el administrador del sistema.</p>
+                <hr />
+                <a class="btn btn-dark" asp-area="" asp-controller="Home" asp-action="Index">Regresar al Inicio</a>
+            </header>
+        </div>
+    </div>
+</div>

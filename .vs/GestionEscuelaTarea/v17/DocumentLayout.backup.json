@@ -1,0 +1,997 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\controllers\\aulascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\controllers\\aulascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\models\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\models\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\controllers\\matriculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\controllers\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\controllers\\profesorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\controllers\\profesorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201215633_agregarmatriculas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201215633_agregarmatriculas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201214824_agregaraulas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201214824_agregaraulas.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201213652_agregarcursos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201213652_agregarcursos.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201213118_agregarprofesores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201213118_agregarprofesores.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201211131_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201211131_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\gestionescuelatarea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\gestionescuelatarea.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\profesores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\profesores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\profesores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\profesores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\profesores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\profesores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\matriculas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\matriculas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\matriculas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\matriculas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\matriculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\matriculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\estudiantes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\estudiantes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\estudiantes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\estudiantes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\cursos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\cursos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\cursos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\aulas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\aulas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\aulas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\aulas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\aulas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\aulas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\profesores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\profesores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\profesores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\profesores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\matriculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\matriculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\matriculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\matriculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\cursos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\cursos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\cursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\cursos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\aulas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\aulas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\aulas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\aulas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\estudiantes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\estudiantes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201215633_agregarmatriculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201215633_agregarmatriculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\models\\matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\models\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201213118_agregarprofesores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201213118_agregarprofesores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201214824_agregaraulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201214824_agregaraulas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201211131_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201211131_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260201213652_agregarcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260201213652_agregarcursos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\models\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|d:\\uniandes\\6to semestre\\app web\\tareas\\gestionescuelatarea\\gestionescuelatarea\\migrations\\20260202000141_identityenmodelsfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEADCF8-1ED7-4EC6-A9F4-5D3023D684C0}|GestionEscuelaTarea\\GestionEscuelaTarea.csproj|solutionrelative:gestionescuelatarea\\migrations\\20260202000141_identityenmodelsfix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfesoresController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\ProfesoresController.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Controllers\\ProfesoresController.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\ProfesoresController.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Controllers\\ProfesoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:32:59.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Controllers\\EstudiantesController.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:15:32.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CursosController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\CursosController.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Controllers\\CursosController.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\CursosController.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Controllers\\CursosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:38:27.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AulasController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\AulasController.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Controllers\\AulasController.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\AulasController.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Controllers\\AulasController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIA0wA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:49:47.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260201213118_AgregarProfesores.Designer.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.Designer.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.Designer.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.Designer.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:56:40.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MatriculasController.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\MatriculasController.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Controllers\\MatriculasController.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Controllers\\MatriculasController.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Controllers\\MatriculasController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAewA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:57:27.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260201211131_InitialCreate.Designer.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.Designer.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.Designer.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:56:34.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Program.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Program.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Program.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAuwEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:04:03.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aula.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Aula.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Models\\Aula.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Aula.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Models\\Aula.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:43:54.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwEgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T21:59:09.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20260202000141_IdentityEnModelsFix.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260202000141_IdentityEnModelsFix.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260202000141_IdentityEnModelsFix.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260202000141_IdentityEnModelsFix.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260202000141_IdentityEnModelsFix.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T00:01:41.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260201213652_AgregarCursos.Designer.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.Designer.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.Designer.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.Designer.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:56:45.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20260201214824_AgregarAulas.Designer.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.Designer.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.Designer.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.Designer.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:56:50.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260201215633_AgregarMatriculas.Designer.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.Designer.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.Designer.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.Designer.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.Designer.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:56:55.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAewAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T23:57:00.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:02:36.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Profesores\\Edit.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Edit.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Profesores\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:43:44.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:34:18.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:36:10.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:44:24.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResendEmailConfirmation.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:41:12.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:39:59.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Matriculas\\Details.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Details.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Matriculas\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:43:00.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Matriculas\\Delete.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Delete.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Matriculas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:43:17.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:37:55.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:39:49.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T23:40:11.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Matriculas\\Edit.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Edit.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Matriculas\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:42:53.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Profesores\\Details.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Details.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Profesores\\Details.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:43:56.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Estudiantes\\Delete.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Delete.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Estudiantes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:42:06.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Estudiantes\\Details.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Details.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Estudiantes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:41:56.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Profesores\\Delete.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Delete.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Profesores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:44:06.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GestionEscuelaTarea.csproj",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\GestionEscuelaTarea.csproj",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\GestionEscuelaTarea.csproj",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\GestionEscuelaTarea.csproj",
+              "RelativeToolTip": "GestionEscuelaTarea\\GestionEscuelaTarea.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-01T23:17:04.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "GestionEscuelaTarea\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-02-01T23:22:00.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Cursos\\Delete.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Delete.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Cursos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:41:14.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Cursos\\Details.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Details.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Cursos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:41:01.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Cursos\\Edit.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Edit.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Cursos\\Edit.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:40:51.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Aulas\\Delete.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Delete.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Aulas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:40:19.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Aulas\\Details.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Details.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Aulas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:40:10.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Aulas\\Edit.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Edit.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Aulas\\Edit.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:39:59.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Profesores\\Create.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Create.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Profesores\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:35:36.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Profesores\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Profesores\\Index.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Profesores\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:35:29.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Matriculas\\Create.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Create.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Matriculas\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:32:24.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Matriculas\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Matriculas\\Index.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Matriculas\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:32:13.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Cursos\\Create.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Create.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Cursos\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:31:41.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Cursos\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Cursos\\Index.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Cursos\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwCoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:31:35.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Aulas\\Create.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Create.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Aulas\\Create.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:30:53.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Aulas\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Aulas\\Index.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Aulas\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwDIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:30:37.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Estudiantes\\Create.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Create.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Estudiantes\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:11:28.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Views\\Estudiantes\\Index.cshtml",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Views\\Estudiantes\\Index.cshtml",
+              "RelativeToolTip": "GestionEscuelaTarea\\Views\\Estudiantes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-01T22:06:41.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20260201215633_AgregarMatriculas.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201215633_AgregarMatriculas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:56:33.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Matricula.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Matricula.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Models\\Matricula.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Matricula.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Models\\Matricula.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:55:44.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Curso.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Models\\Curso.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Curso.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Models\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:34:51.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20260201213118_AgregarProfesores.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201213118_AgregarProfesores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:31:18.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Profesor.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Models\\Profesor.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Profesor.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Models\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:23:04.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "20260201214824_AgregarAulas.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201214824_AgregarAulas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:48:24.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20260201211131_InitialCreate.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201211131_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:11:31.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20260201213652_AgregarCursos.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Migrations\\20260201213652_AgregarCursos.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:36:52.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Estudiante.cs",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\Models\\Estudiante.cs",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\Models\\Estudiante.cs",
+              "RelativeToolTip": "GestionEscuelaTarea\\Models\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T21:00:03.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\appsettings.Development.json",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\appsettings.Development.json",
+              "RelativeToolTip": "GestionEscuelaTarea\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-01T20:57:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionEscuelaTarea\\appsettings.json",
+              "ToolTip": "D:\\UNIANDES\\6TO SEMESTRE\\APP WEB\\TAREAS\\GestionEscuelaTarea\\GestionEscuelaTarea\\appsettings.json",
+              "RelativeToolTip": "GestionEscuelaTarea\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-01T20:57:42.964Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

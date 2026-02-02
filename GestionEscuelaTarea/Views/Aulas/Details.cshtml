@@ -1,0 +1,33 @@
+﻿@model GestionEscuelaTarea.Models.Aula
+@{
+    ViewData["Title"] = "Detalles del Aula";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">Información Detallada del Aula</h4>
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3 fw-bold text-muted">Nombre/Código:</dt>
+                <dd class="col-sm-9 fs-5">@Model.Nombre</dd>
+
+                <dt class="col-sm-3 fw-bold text-muted">Ubicación:</dt>
+                <dd class="col-sm-9">@Model.Ubicacion</dd>
+
+                <dt class="col-sm-3 fw-bold text-muted">Capacidad:</dt>
+                <dd class="col-sm-9">@Model.Capacidad personas</dd>
+
+                <dt class="col-sm-3 fw-bold text-muted">Proyector:</dt>
+                <dd class="col-sm-9">
+                    @(Model.TieneProyector ? "Sí cuenta con proyector" : "No cuenta con proyector")
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer bg-light">
+            <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Editar</a>
+            <a asp-action="Index" class="btn btn-secondary">Volver</a>
+        </div>
+    </div>
+</div>
